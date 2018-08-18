@@ -84,7 +84,7 @@ bot.onText(/\/start/, (msg) => {
     bot.sendMessage(msg.chat.id, replies.start_private,
                     {
                       parse_mode: 'HTML',
-                      reply_markup: {inline_keyboard: [[{text: replies.add_to_group, url: 't.me/TagAlertBot?startgroup=true'}]]}
+                      reply_markup: {inline_keyboard: [[{text: replies.add_to_group, url: 't.me/AbTagAlertBot?startgroup=true'}]]}
                     }
     )
   }
