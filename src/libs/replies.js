@@ -4,7 +4,7 @@ module.exports = {
     'start_group':        'Contact me in private for more infos and enabling me.',
     'start_private':      'Hello.\n' +
                           '<b>You are now enabled</b> to receive notifications from me, ' +
-                          'Just add @TagAlertBot in your groups and I\'ll start working.\n' +
+                          'Just add @AbTagAlertBot in your groups and I\'ll start working.\n' +
                           'When you\'ll get tagged I\'ll send a message to you.\n\n' +
                           ' - a bot by @AbinPauIZackariah ❤.',
     'main_text':          '<b>[ Incoming Message ]</b>\n\n' +
