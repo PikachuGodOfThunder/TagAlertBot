@@ -34,7 +34,7 @@ bot.on('callback_query', (call) => {
             if (call.message.chat.all_members_are_administrators || admin.user.id === call.from.id)
               return db.updateSettings(call.data, call.message.chat.id, (setting, status) => {
                 bot.answerCallbackQuery(
-                  call.id, util.format(replies.settings_updated, '#'+setting, status?'enabled':'disabled'), true)
+                  call.id, util.format(replies.settings_updated, '@'+setting, status?'enabled':'disabled'), true)
               })
 
           })
