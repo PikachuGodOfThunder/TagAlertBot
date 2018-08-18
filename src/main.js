@@ -1,5 +1,5 @@
 /****************************************************/
-//   TagAlertBot (https://t.me/tagalertbot)         //
+//   TagAlertBot (https://t.me/AbTagAlertBot)         //
 //   Simple notifications bot for mentions          //
 //                                                  //
 //   Author: Antonio Pitasi (@Zaphodias)            //
