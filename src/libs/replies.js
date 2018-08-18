@@ -6,8 +6,7 @@ module.exports = {
                           '<b>You are now enabled</b> to receive notifications from me, ' +
                           'Just add @TagAlertBot in your groups and I\'ll start working.\n' +
                           'When you\'ll get tagged I\'ll send a message to you.\n\n' +
-                          'Source code and infos: http://tagalert.pitasi.space/\n' +
-                          ' - a bot by @Zaphodias.',
+                          ' - a bot by @AbinPauIZackariah ❤.',
     'main_text':          '<b>[ Incoming Message ]</b>\n\n' +
                           '<b>[ FROM ]</b>\n' +
                           '\uD83D\uDC64' +
