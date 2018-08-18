@@ -90,7 +90,7 @@ bot.onText(/\/start/, (msg) => {
   }
 })
 
-bot.onText(/^\/info$|^\/info@TagAlertBot$/gi, (msg) => {
+bot.onText(/^\/info$|^\/info@AbTagAlertBot$/gi, (msg) => {
   if (!af.isFlooding(msg.from.id)) {
     if (msg.chat.type !== 'private') {
       bot.sendMessage(msg.chat.id, replies.start_group).then((m) => {
